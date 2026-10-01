@@ -1,0 +1,16 @@
+class A{
+    A(){
+        System.out.println("const-A");
+    }
+
+}
+class B extends A{
+    B(){
+        System.out.println("const-B");
+    }
+}
+class Test {
+    public static void main(String[] args) {
+        B obj = new B();
+    }
+}
